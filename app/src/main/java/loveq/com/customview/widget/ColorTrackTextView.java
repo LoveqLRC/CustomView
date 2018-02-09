@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Paint;
+import android.graphics.Rect;
 import android.graphics.RectF;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
@@ -70,7 +71,14 @@ public class ColorTrackTextView extends TextView {
         RectF rectF = new RectF(left, 0, right, getHeight());
         canvas.clipRect(rectF);
         String content = getText().toString();
+        Rect bounds = new Rect();
+        paint.getTextBounds(content, 0, content.length(), bounds);
+        int textWidth = getWidth() / 2 - bounds.width() / 2;
 
+        Paint.FontMetricsInt fontMetricsInt = paint.getFontMetricsInt();
+        int dy = (fontMetricsInt.bottom - fontMetricsInt.top) / 2 - fontMetricsInt.bottom;
+        int baseline = getHeight() / 2 + dy;
+        canvas.drawText(content, textWidth, baseline, paint);
         canvas.restore();
     }
 }

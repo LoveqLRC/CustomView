@@ -12,7 +12,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="ClipRect"
-
         android:text="ClipRect"/>
 
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="DrawText"
+        android:text="DrawText"/>
 </LinearLayout>

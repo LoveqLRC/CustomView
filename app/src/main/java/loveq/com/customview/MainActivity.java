@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import loveq.com.customview.ui.ClipRectActivity;
+import loveq.com.customview.ui.DrawTextActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,6 +18,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void ClipRect(View view) {
         Intent intent = new Intent(this, ClipRectActivity.class);
+        startActivity(intent);
+    }
+
+    public void DrawText(View view) {
+        Intent intent = new Intent(this, DrawTextActivity.class);
         startActivity(intent);
     }
 }
