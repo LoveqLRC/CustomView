@@ -6,30 +6,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="loveq.com.customview.MainActivity">
+    tools:context="loveq.com.customview.ui.ColorTrackActivity">
+
+    <loveq.com.customview.widget.ColorTrackTextView
+        android:id="@+id/cttv"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="loveqrcloveqrcloveqrc"
+        android:textColor="@color/colorPrimary"
+        app:track_textColor="@color/colorAccent"
+        />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="ClipRect"
-        android:text="ClipRect"/>
-
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="DrawText"
-        android:text="DrawText中的参数"/>
+        android:onClick="LeftToRight"
+        android:text="LeftToRight"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="TextBounds"
-        android:text="TextBounds和measureText区别"/>
+        android:onClick="RightToLeft"
+        android:text="RightToLeft"/>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:onClick="ColorTrack"
-        android:text="ColorTrack"/>
 </LinearLayout>
