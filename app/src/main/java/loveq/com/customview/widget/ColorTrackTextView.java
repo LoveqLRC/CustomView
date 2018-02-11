@@ -107,4 +107,16 @@ public class ColorTrackTextView extends TextView {
         mCurrentProgress = currentProgress;
         invalidate();
     }
+
+    public void setTrackColor(int trackColor) {
+        mTrackColor = trackColor;
+        mTrackPaint.setColor(trackColor);
+        invalidate();
+    }
+
+    public void setOriginColor(int originColor) {
+        mOriginColor = originColor;
+        mOriginPaint.setColor(originColor);
+        invalidate();
+    }
 }
