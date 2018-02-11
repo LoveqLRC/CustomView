@@ -7,6 +7,7 @@ import android.view.View;
 
 import loveq.com.customview.ui.ClipRectActivity;
 import loveq.com.customview.ui.DrawTextActivity;
+import loveq.com.customview.ui.TextBoundsActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,6 +24,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void DrawText(View view) {
         Intent intent = new Intent(this, DrawTextActivity.class);
+        startActivity(intent);
+    }
+
+    public void TextBounds(View view) {
+        Intent intent = new Intent(this, TextBoundsActivity.class);
         startActivity(intent);
     }
 }

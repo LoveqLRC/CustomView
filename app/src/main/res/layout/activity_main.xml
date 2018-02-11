@@ -19,5 +19,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="DrawText"
-        android:text="DrawText"/>
+        android:text="DrawText中的参数"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="TextBounds"
+        android:text="TextBounds和measureText区别"/>
 </LinearLayout>

@@ -57,8 +57,7 @@ public class ColorTrackTextView extends TextView {
 
     @Override
     protected void onDraw(Canvas canvas) {
-        //view的onDraw是空实现，但是TextView的不是。
-        // 这里我们需要自定义TextView的onDraw
+        //view的onDraw是空实现，但是TextView的不是。所以我们需要自定义TextView的onDraw
         // super.onDraw(canvas);
         int distant = getWidth() * mCurrentProgress;
         drawText(canvas, mTrackPaint, 0, distant);
