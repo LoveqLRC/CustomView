@@ -10,7 +10,15 @@ import android.view.View;
 
 /**
  * Created by rc on 2018/2/9.
- * Description:
+ * Description: drawText参数关系
+ * 每条线之间的关系：
+ * float ascent = baseLineY + fontMetrics.ascent;
+ * float descent = baseLineY + fontMetrics.descent;
+ * float top = baseLineY + fontMetrics.top;
+ * float bottom = baseLineY + fontMetrics.bottom;
+ * 定点写字：
+ * 给定中线写字
+ * baseline = center + (FontMetrics.bottom - FontMetrics.top)/2 - FontMetrics.bottom;
  */
 
 public class DrawTextView extends View {
