@@ -24,6 +24,8 @@
         </activity>
         <activity android:name=".ui.ColorTrackActivity">
         </activity>
+        <activity android:name=".ui.RatingBarActivity">
+        </activity>
     </application>
 
 </manifest>

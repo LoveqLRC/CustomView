@@ -32,4 +32,10 @@
         android:layout_height="wrap_content"
         android:onClick="ColorTrack"
         android:text="ColorTrack"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="RatingBar"
+        android:text="RatingBar"/>
 </LinearLayout>

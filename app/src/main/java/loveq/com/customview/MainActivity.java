@@ -8,6 +8,7 @@ import android.view.View;
 import loveq.com.customview.ui.ClipRectActivity;
 import loveq.com.customview.ui.ColorTrackActivity;
 import loveq.com.customview.ui.DrawTextActivity;
+import loveq.com.customview.ui.RatingBarActivity;
 import loveq.com.customview.ui.TextBoundsActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -35,6 +36,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void ColorTrack(View view) {
         Intent intent = new Intent(this, ColorTrackActivity.class);
+        startActivity(intent);
+    }
+
+    public void RatingBar(View view) {
+        Intent intent = new Intent(this, RatingBarActivity.class);
         startActivity(intent);
     }
 }

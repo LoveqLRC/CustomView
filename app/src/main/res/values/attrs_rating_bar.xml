@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RatingBar">
+        <!--默认icon-->
+        <attr name="normal_icon" format="reference"/>
+        <!--打星icon-->
+        <attr name="star_icon" format="reference"/>
+        <!--一共有多少个星星 default=5-->
+        <attr name="star_grade" format="integer"/>
+    </declare-styleable>
+</resources>
