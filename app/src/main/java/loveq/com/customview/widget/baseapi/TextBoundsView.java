@@ -1,4 +1,4 @@
-package loveq.com.customview.widget;
+package loveq.com.customview.widget.baseapi;
 
 import android.content.Context;
 import android.graphics.Canvas;

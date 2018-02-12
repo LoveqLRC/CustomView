@@ -12,25 +12,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="BaseApi"
-        android:text="BaseApi的使用"/>
-
+        android:text="BaseApi的使用"
+        />
 
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="ColorTrack"
-        android:text="ColorTrack"/>
+        android:text="ColorTrack"
+        />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="RatingBar"
-        android:text="RatingBar"/>
+        android:text="RatingBar"
+        />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="LetterSideBar"
-        android:text="LetterSideBar"/>
+        android:text="LetterSideBar"
+        />
 </LinearLayout>

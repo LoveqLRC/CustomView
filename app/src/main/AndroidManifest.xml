@@ -16,21 +16,21 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".ui.ClipRectActivity">
+        <activity android:name=".ui.baseapi.ClipRectActivity">
         </activity>
-        <activity android:name=".ui.DrawTextActivity">
+        <activity android:name=".ui.baseapi.DrawTextActivity">
         </activity>
-        <activity android:name=".ui.TextBoundsActivity">
+        <activity android:name=".ui.baseapi.TextBoundsActivity">
         </activity>
-        <activity android:name=".ui.ColorTrackActivity">
+        <activity android:name=".ui.view.ColorTrackActivity">
         </activity>
-        <activity android:name=".ui.RatingBarActivity">
+        <activity android:name=".ui.view.RatingBarActivity">
         </activity>
-        <activity android:name=".ui.LetterSideBarActivity">
+        <activity android:name=".ui.view.LetterSideBarActivity">
         </activity>
-        <activity android:name=".ui.ImageViewMatrixActivity">
+        <activity android:name=".ui.baseapi.ImageViewMatrixActivity">
         </activity>
-        <activity android:name=".ui.BaseApiActivity">
+        <activity android:name=".ui.baseapi.BaseApiActivity">
         </activity>
     </application>
 

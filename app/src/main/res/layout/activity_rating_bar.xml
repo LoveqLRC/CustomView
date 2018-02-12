@@ -5,9 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="loveq.com.customview.ui.RatingBarActivity">
+    tools:context="loveq.com.customview.ui.view.RatingBarActivity">
 
-    <loveq.com.customview.widget.RatingBar
+    <loveq.com.customview.widget.view.RatingBar
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 </FrameLayout>

@@ -1,4 +1,4 @@
-package loveq.com.customview.ui;
+package loveq.com.customview.ui.view;
 
 import android.os.Build;
 import android.os.Bundle;
@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import loveq.com.customview.R;
-import loveq.com.customview.widget.LetterSideBar;
+import loveq.com.customview.widget.view.LetterSideBar;
 
 public class LetterSideBarActivity extends AppCompatActivity {
 

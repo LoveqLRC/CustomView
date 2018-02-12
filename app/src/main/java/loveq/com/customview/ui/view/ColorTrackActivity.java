@@ -1,4 +1,4 @@
-package loveq.com.customview.ui;
+package loveq.com.customview.ui.view;
 
 import android.animation.ObjectAnimator;
 import android.animation.ValueAnimator;
@@ -14,7 +14,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import loveq.com.customview.R;
-import loveq.com.customview.widget.ColorTrackTextView;
+import loveq.com.customview.widget.view.ColorTrackTextView;
 
 public class ColorTrackActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package loveq.com.customview.widget;
+package loveq.com.customview.widget.view;
 
 import android.content.Context;
 import android.content.res.TypedArray;

@@ -5,10 +5,10 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import loveq.com.customview.ui.BaseApiActivity;
-import loveq.com.customview.ui.ColorTrackActivity;
-import loveq.com.customview.ui.LetterSideBarActivity;
-import loveq.com.customview.ui.RatingBarActivity;
+import loveq.com.customview.ui.baseapi.BaseApiActivity;
+import loveq.com.customview.ui.view.ColorTrackActivity;
+import loveq.com.customview.ui.view.LetterSideBarActivity;
+import loveq.com.customview.ui.view.RatingBarActivity;
 
 public class MainActivity extends AppCompatActivity {
 

@@ -1,15 +1,15 @@
-package loveq.com.customview.ui;
+package loveq.com.customview.ui.view;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 import loveq.com.customview.R;
 
-public class DrawTextActivity extends AppCompatActivity {
+public class RatingBarActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_draw_text);
+        setContentView(R.layout.activity_rating_bar);
     }
 }
