@@ -26,6 +26,8 @@
         </activity>
         <activity android:name=".ui.RatingBarActivity">
         </activity>
+        <activity android:name=".ui.LetterSideBarActivity">
+        </activity>
     </application>
 
 </manifest>

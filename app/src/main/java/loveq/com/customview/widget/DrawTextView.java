@@ -17,8 +17,9 @@ import android.view.View;
  * float top = baseLineY + fontMetrics.top;
  * float bottom = baseLineY + fontMetrics.bottom;
  * 定点写字：
- * 给定中线写字
+ * 给定中线绘制文字
  * baseline = center + (FontMetrics.bottom - FontMetrics.top)/2 - FontMetrics.bottom;
+ * 参考链接：http://blog.csdn.net/harvic880925/article/details/50423762
  */
 
 public class DrawTextView extends View {
