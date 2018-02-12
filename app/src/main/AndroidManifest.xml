@@ -28,6 +28,10 @@
         </activity>
         <activity android:name=".ui.LetterSideBarActivity">
         </activity>
+        <activity android:name=".ui.ImageViewMatrixActivity">
+        </activity>
+        <activity android:name=".ui.BaseApiActivity">
+        </activity>
     </application>
 
 </manifest>

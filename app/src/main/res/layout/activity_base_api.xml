@@ -6,31 +6,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="loveq.com.customview.MainActivity">
+    tools:context="loveq.com.customview.ui.BaseApiActivity">
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="BaseApi"
-        android:text="BaseApi的使用"/>
-
+        android:onClick="ClipRect"
+        android:text="ClipRect"/>
 
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="ColorTrack"
-        android:text="ColorTrack"/>
+        android:onClick="DrawText"
+        android:text="DrawText中的参数"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="RatingBar"
-        android:text="RatingBar"/>
+        android:onClick="TextBounds"
+        android:text="TextBounds和measureText区别"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="LetterSideBar"
-        android:text="LetterSideBar"/>
+        android:onClick="ImageViewScaleType"
+        android:text="matrix平移"/>
+
 </LinearLayout>

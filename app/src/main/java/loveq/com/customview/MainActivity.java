@@ -5,12 +5,10 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import loveq.com.customview.ui.ClipRectActivity;
+import loveq.com.customview.ui.BaseApiActivity;
 import loveq.com.customview.ui.ColorTrackActivity;
-import loveq.com.customview.ui.DrawTextActivity;
 import loveq.com.customview.ui.LetterSideBarActivity;
 import loveq.com.customview.ui.RatingBarActivity;
-import loveq.com.customview.ui.TextBoundsActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,21 +18,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void ClipRect(View view) {
-        Intent intent = new Intent(this, ClipRectActivity.class);
+    public void BaseApi(View view) {
+        Intent intent = new Intent(this, BaseApiActivity.class);
         startActivity(intent);
     }
-
-    public void DrawText(View view) {
-        Intent intent = new Intent(this, DrawTextActivity.class);
-        startActivity(intent);
-    }
-
-    public void TextBounds(View view) {
-        Intent intent = new Intent(this, TextBoundsActivity.class);
-        startActivity(intent);
-    }
-
     public void ColorTrack(View view) {
         Intent intent = new Intent(this, ColorTrackActivity.class);
         startActivity(intent);
