@@ -9,6 +9,7 @@ import loveq.com.customview.ui.baseapi.BaseApiActivity;
 import loveq.com.customview.ui.view.ColorTrackActivity;
 import loveq.com.customview.ui.view.LetterSideBarActivity;
 import loveq.com.customview.ui.view.RatingBarActivity;
+import loveq.com.customview.ui.viewgroup.LoadingViewActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, BaseApiActivity.class);
         startActivity(intent);
     }
+
     public void ColorTrack(View view) {
         Intent intent = new Intent(this, ColorTrackActivity.class);
         startActivity(intent);
@@ -34,6 +36,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void LetterSideBar(View view) {
         Intent intent = new Intent(this, LetterSideBarActivity.class);
+        startActivity(intent);
+    }
+
+    public void ShapeView(View view) {
+        Intent intent = new Intent(this, LoadingViewActivity.class);
         startActivity(intent);
     }
 }

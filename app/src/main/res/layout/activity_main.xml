@@ -36,4 +36,10 @@
         android:onClick="LetterSideBar"
         android:text="LetterSideBar"
         />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="ShapeView"
+        android:text="ShapeView"/>
 </LinearLayout>

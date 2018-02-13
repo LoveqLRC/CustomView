@@ -32,6 +32,8 @@
         </activity>
         <activity android:name=".ui.baseapi.BaseApiActivity">
         </activity>
+        <activity android:name=".ui.viewgroup.LoadingViewActivity">
+        </activity>
     </application>
 
 </manifest>
