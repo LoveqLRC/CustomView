@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void ShapeView(View view) {
+    public void LoadingView(View view) {
         Intent intent = new Intent(this, LoadingViewActivity.class);
         startActivity(intent);
     }

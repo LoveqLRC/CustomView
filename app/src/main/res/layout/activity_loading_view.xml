@@ -7,8 +7,8 @@
     android:layout_height="match_parent"
     tools:context="loveq.com.customview.ui.viewgroup.LoadingViewActivity">
 
-    <loveq.com.customview.widget.view.ShapeView
+    <loveq.com.customview.widget.viewgroup.LoadingView
         android:id="@+id/shape"
-        android:layout_width="80dp"
-        android:layout_height="80dp"/>
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 </FrameLayout>

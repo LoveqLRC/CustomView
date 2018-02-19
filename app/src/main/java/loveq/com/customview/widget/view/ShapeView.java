@@ -24,7 +24,7 @@ public class ShapeView extends View {
 
     private Paint mPaint;
     private @Shape
-    int mCurrentShape = Shape.TRIANGLE;
+    int mCurrentShape = Shape.CIRCLE;
     private Path mPath;
 
     public ShapeView(Context context) {
@@ -50,7 +50,7 @@ public class ShapeView extends View {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
         int width = MeasureSpec.getSize(widthMeasureSpec);
         int height = MeasureSpec.getSize(heightMeasureSpec);
-        setMeasuredDimension(Math.min(width, height), Math.max(width, height));
+        setMeasuredDimension(Math.min(width, height), Math.min(width, height));
     }
 
     @Override
@@ -84,13 +84,21 @@ public class ShapeView extends View {
     public void changeShape() {
         switch (mCurrentShape) {
             case Shape.CIRCLE:
+                mCurrentShape = Shape.SQUARE;
                 break;
             case Shape.SQUARE:
+                mCurrentShape = Shape.TRIANGLE;
                 break;
             case Shape.TRIANGLE:
+                mCurrentShape = Shape.CIRCLE;
                 break;
         }
         invalidate();
+    }
+
+    public @Shape
+    int getCurrentShape() {
+        return mCurrentShape;
     }
 
     @IntDef({Shape.CIRCLE, Shape.SQUARE, Shape.TRIANGLE})
