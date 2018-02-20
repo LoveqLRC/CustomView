@@ -23,7 +23,7 @@
     <TextView
         android:layout_marginTop="5dp"
         android:layout_width="wrap_content"
-        android:text="玩命记载中..."
+        android:text="玩命加载中..."
         android:layout_height="wrap_content" />
 
 </LinearLayout>
