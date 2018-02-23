@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="loveq.com.customview.ui.view.RulerViewActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <loveq.com.customview.widget.view.RulerView
+            android:id="@+id/ruler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#3c3c"
+            app:disableIndex="16"
+            app:indicateColor="#7cb3f1"
+            app:indicateHeight="12dp"
+            app:indicateMarginText="14dp"
+            app:indicatePadding="10dp"
+            app:indicateWidth="1dp"
+            app:rulerTextArray="@array/date"
+            app:rulerTextColor="#333333"
+            app:rulerTextSize="10sp"
+            app:smallIndicateColor="#7cb3f1"
+            app:smallIndicateHeight="6dp"
+            app:smallIndicateWidth="1dp"/>
+        <View
+            android:layout_gravity="center"
+            android:layout_width="3dp"
+            android:layout_height="50dp"
+            android:background="@android:color/holo_red_dark"/>
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_position"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:onClick="go"
+        android:id="@+id/btn_go"
+        android:text="跳转到66"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:onClick="clearDisableIndex"
+        android:text="清除Disable Index"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:onClick="setDisableIndex"
+        android:text="设置Disable Index"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

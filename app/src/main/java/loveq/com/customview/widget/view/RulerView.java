@@ -16,6 +16,7 @@ import android.widget.OverScroller;
 
 import loveq.com.customview.R;
 
+
 /**
  * Created by rc on 2018/2/13.
  * Description:
@@ -61,7 +62,7 @@ public class RulerView extends View {
     private static final int INVALID_POINTER = -1;
     public int mIndicateColor;
     public int mTextColor;
-    RulerViewScrollListener mScrollListener;
+    RulerViewOnScrollListener mOnScrollListener;
     private int mTextSize;
     private int mOrientation;
     private int mGravity;
@@ -455,7 +456,7 @@ public class RulerView extends View {
         int heightMode = MeasureSpec.getMode(heightMeasureSpec);
         int widthSize = MeasureSpec.getSize(widthMeasureSpec);
         int heightSize = MeasureSpec.getSize(heightMeasureSpec);
-        if (heightMode == MeasureSpec.UNSPECIFIED) {
+        if (heightMode == MeasureSpec.UNSPECIFIED || heightMode == MeasureSpec.AT_MOST) {
             if (mIsDrawText) {
                 rulerHeight = getPaddingBottom() + getPaddingTop()
                         + mIndicateHeight + mIndicateMarginText + mDrawTextHeight;
@@ -572,8 +573,8 @@ public class RulerView extends View {
         } else if (!mIsBeingDragged && mAutoAdjust) {
             adjustIndicate();
         }
-        if (mScrollListener != null) {
-            mScrollListener.onScroll(getCurrentPosition());
+        if (mOnScrollListener != null) {
+            mOnScrollListener.onScroll(getCurrentPosition());
         }
     }
 
@@ -652,10 +653,10 @@ public class RulerView extends View {
     /**
      * 设置滚动监听
      *
-     * @param scrollListener
+     * @param onScrollListener
      */
-    public void setScrollListener(RulerViewScrollListener scrollListener) {
-        mScrollListener = scrollListener;
+    public void setOnScrollListener(RulerViewOnScrollListener onScrollListener) {
+        mOnScrollListener = onScrollListener;
     }
 
     private int getMinScrollX() {
@@ -674,7 +675,7 @@ public class RulerView extends View {
         return mRulerViewHeight / 2;
     }
 
-    public interface RulerViewScrollListener {
+    public interface RulerViewOnScrollListener {
         void onScroll(int position);
     }
 

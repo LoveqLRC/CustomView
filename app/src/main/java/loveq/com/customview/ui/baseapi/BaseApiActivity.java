@@ -34,4 +34,9 @@ public class BaseApiActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ImageViewMatrixActivity.class);
         startActivity(intent);
     }
+
+    public void customStates(View view) {
+        Intent intent = new Intent(this, CustomStatesActivity.class);
+        startActivity(intent);
+    }
 }

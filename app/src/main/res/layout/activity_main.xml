@@ -42,4 +42,10 @@
         android:layout_height="wrap_content"
         android:onClick="LoadingView"
         android:text="LoadingView"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="RulerView"
+        android:text="RulerView"/>
 </LinearLayout>

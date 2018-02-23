@@ -33,4 +33,10 @@
         android:onClick="ImageViewScaleType"
         android:text="matrix平移"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="customStates"
+        android:text="自定义状态"/>
+
 </LinearLayout>
