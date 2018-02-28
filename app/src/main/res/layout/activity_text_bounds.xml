@@ -5,9 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="loveq.com.customview.ui.baseapi.TextBoundsActivity">
+    tools:context="loveq.com.customview.ui.base.TextBoundsActivity">
 
-    <loveq.com.customview.widget.baseapi.TextBoundsView
+    <loveq.com.customview.widget.base.TextBoundsView
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:background="@android:color/black"

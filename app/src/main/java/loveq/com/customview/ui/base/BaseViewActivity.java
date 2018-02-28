@@ -1,4 +1,4 @@
-package loveq.com.customview.ui.baseapi;
+package loveq.com.customview.ui.base;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,12 +7,12 @@ import android.view.View;
 
 import loveq.com.customview.R;
 
-public class BaseApiActivity extends AppCompatActivity {
+public class BaseViewActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_base_api);
+        setContentView(R.layout.activity_base);
     }
 
     public void ClipRect(View view) {

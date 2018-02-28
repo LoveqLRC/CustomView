@@ -16,11 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".ui.baseapi.ClipRectActivity">
+        <activity android:name=".ui.base.ClipRectActivity">
         </activity>
-        <activity android:name=".ui.baseapi.DrawTextActivity">
+        <activity android:name=".ui.base.DrawTextActivity">
         </activity>
-        <activity android:name=".ui.baseapi.TextBoundsActivity">
+        <activity android:name=".ui.base.TextBoundsActivity">
         </activity>
         <activity android:name=".ui.view.ColorTrackActivity">
         </activity>
@@ -28,15 +28,15 @@
         </activity>
         <activity android:name=".ui.view.LetterSideBarActivity">
         </activity>
-        <activity android:name=".ui.baseapi.ImageViewMatrixActivity">
+        <activity android:name=".ui.base.ImageViewMatrixActivity">
         </activity>
-        <activity android:name=".ui.baseapi.BaseApiActivity">
+        <activity android:name=".ui.base.BaseViewActivity">
         </activity>
         <activity android:name=".ui.viewgroup.LoadingViewActivity">
         </activity>
         <activity android:name=".ui.view.RulerViewActivity">
         </activity>
-        <activity android:name=".ui.baseapi.CustomStatesActivity">
+        <activity android:name=".ui.base.CustomStatesActivity">
         </activity>
         <activity android:name=".ui.view.SemiCircleActivity">
         </activity>

@@ -1,4 +1,4 @@
-package loveq.com.customview.ui.baseapi;
+package loveq.com.customview.ui.base;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;

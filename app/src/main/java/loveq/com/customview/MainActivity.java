@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import loveq.com.customview.ui.baseapi.BaseApiActivity;
+import loveq.com.customview.ui.base.BaseViewActivity;
 import loveq.com.customview.ui.view.ColorTrackActivity;
 import loveq.com.customview.ui.view.LetterSideBarActivity;
 import loveq.com.customview.ui.view.RatingBarActivity;
@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void BaseApi(View view) {
-        Intent intent = new Intent(this, BaseApiActivity.class);
+        Intent intent = new Intent(this, BaseViewActivity.class);
         startActivity(intent);
     }
 

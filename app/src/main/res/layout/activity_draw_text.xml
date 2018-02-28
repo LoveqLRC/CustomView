@@ -5,9 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="loveq.com.customview.ui.baseapi.DrawTextActivity">
+    tools:context="loveq.com.customview.ui.base.DrawTextActivity">
 
-    <loveq.com.customview.widget.baseapi.DrawTextView
+    <loveq.com.customview.widget.base.DrawTextView
         android:id="@+id/dtv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
