@@ -38,6 +38,8 @@
         </activity>
         <activity android:name=".ui.baseapi.CustomStatesActivity">
         </activity>
+        <activity android:name=".ui.view.SemiCircleActivity">
+        </activity>
     </application>
 
 </manifest>

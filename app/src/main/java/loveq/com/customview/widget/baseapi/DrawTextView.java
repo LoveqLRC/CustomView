@@ -14,11 +14,11 @@ import android.view.View;
  * 每条线之间的关系：
  * float ascent = baseLineY + fontMetrics.ascent;
  * float descent = baseLineY + fontMetrics.descent;
- * float top = baseLineY + fontMetrics.top;
- * float bottom = baseLineY + fontMetrics.bottom;
+ * float TOP = baseLineY + fontMetrics.TOP;
+ * float BOTTOM = baseLineY + fontMetrics.BOTTOM;
  * 定点写字：
  * 给定中线绘制文字
- * baseline = center + (FontMetrics.bottom - FontMetrics.top)/2 - FontMetrics.bottom;
+ * baseline = center + (FontMetrics.BOTTOM - FontMetrics.TOP)/2 - FontMetrics.BOTTOM;
  * 参考链接：http://blog.csdn.net/harvic880925/article/details/50423762
  */
 
