@@ -5,9 +5,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="loveq.com.customview.ui.view.SemiCircleActivity">
+    tools:context="loveq.com.customview.ui.base.SemiCircleActivity">
 
-    <loveq.com.customview.widget.view.SemiCircle
+    <loveq.com.customview.widget.base.SemiCircle
         android:layout_width="50dp"
         android:layout_height="50dp"/>
 </FrameLayout>

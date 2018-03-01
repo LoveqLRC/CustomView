@@ -9,4 +9,12 @@
         <item name="android:textAllCaps">false</item>
     </style>
 
+    <style name="CheckedTextViewStyle">
+        <item name="colorAccent">#3c3c3c</item>
+    </style>
+
+    <style name="RadioButtonStyle">
+        <item name="colorAccent">#3c3c3c</item>
+        <item name="android:textColorSecondary">@color/colorAccent</item>
+    </style>
 </resources>

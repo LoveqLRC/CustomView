@@ -38,7 +38,9 @@
         </activity>
         <activity android:name=".ui.base.CustomStatesActivity">
         </activity>
-        <activity android:name=".ui.view.SemiCircleActivity">
+        <activity android:name=".ui.base.SemiCircleActivity">
+        </activity>
+        <activity android:name=".ui.base.OtherActivity">
         </activity>
     </application>
 

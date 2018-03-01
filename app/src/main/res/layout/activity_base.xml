@@ -36,7 +36,21 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="SemiCircle"
+        android:text="SemiCircle"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:onClick="customStates"
         android:text="自定义状态"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="other"
+        android:text="其他"/>
+
 
 </LinearLayout>

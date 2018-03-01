@@ -39,4 +39,13 @@ public class BaseViewActivity extends AppCompatActivity {
         Intent intent = new Intent(this, CustomStatesActivity.class);
         startActivity(intent);
     }
+
+    public void other(View view) {
+        Intent intent = new Intent(this, OtherActivity.class);
+        startActivity(intent);
+    }
+    public void SemiCircle(View view) {
+        Intent intent = new Intent(this, SemiCircleActivity.class);
+        startActivity(intent);
+    }
 }

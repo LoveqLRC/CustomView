@@ -10,7 +10,6 @@ import loveq.com.customview.ui.view.ColorTrackActivity;
 import loveq.com.customview.ui.view.LetterSideBarActivity;
 import loveq.com.customview.ui.view.RatingBarActivity;
 import loveq.com.customview.ui.view.RulerViewActivity;
-import loveq.com.customview.ui.view.SemiCircleActivity;
 import loveq.com.customview.ui.viewgroup.LoadingViewActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -51,8 +50,5 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void SemiCircle(View view) {
-        Intent intent = new Intent(this, SemiCircleActivity.class);
-        startActivity(intent);
-    }
+
 }
