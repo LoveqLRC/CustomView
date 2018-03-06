@@ -22,6 +22,8 @@
     </style>
 
 
+![](https://github.com/LoveqLRC/CustomView/blob/master/screenshot/menu_text_color.png)
+
 
 
 ## CheckedTextView
