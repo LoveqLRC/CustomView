@@ -8,12 +8,21 @@
     android:orientation="vertical"
     tools:context="loveq.com.customview.ui.base.OtherActivity">
 
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:background="#444444"
+        android:theme="@style/MenuTheme"
+        app:navigationIcon="@drawable/ic_back">
+
+    </android.support.v7.widget.Toolbar>
+
     <CheckedTextView
         android:id="@+id/ctv"
         style="?android:borderlessButtonStyle"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:checked="true"
         android:drawableLeft="?android:listChoiceIndicatorSingle"
         android:text="rc"
         android:theme="@style/CheckedTextViewStyle"/>
@@ -24,15 +33,21 @@
         android:orientation="horizontal">
 
         <RadioButton
-            android:theme="@style/RadioButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Html"/>
+            android:text="Html"
+            android:theme="@style/RadioButtonStyle"/>
 
         <RadioButton
-            android:theme="@style/RadioButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Android"/>
+            android:text="Android"
+            android:theme="@style/RadioButtonStyle"/>
     </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/spanStr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 </LinearLayout>
