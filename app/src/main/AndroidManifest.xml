@@ -40,8 +40,11 @@
         </activity>
         <activity android:name=".ui.base.SemiCircleActivity">
         </activity>
-        <activity android:name=".ui.base.OtherActivity"
+        <activity
+            android:name=".ui.base.OtherActivity"
             android:theme="@style/OtherTheme">
+        </activity>
+        <activity android:name=".ui.pliad.ElasticDragActivity">
         </activity>
     </application>
 

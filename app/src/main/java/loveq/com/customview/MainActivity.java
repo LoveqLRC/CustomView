@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import loveq.com.customview.ui.base.BaseViewActivity;
+import loveq.com.customview.ui.pliad.ElasticDragActivity;
 import loveq.com.customview.ui.view.ColorTrackActivity;
 import loveq.com.customview.ui.view.LetterSideBarActivity;
 import loveq.com.customview.ui.view.RatingBarActivity;
@@ -51,4 +52,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void ElasticDrag(View view) {
+        Intent intent = new Intent(this, ElasticDragActivity.class);
+        startActivity(intent);
+    }
 }
