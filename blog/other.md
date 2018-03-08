@@ -1,6 +1,19 @@
 
 # 杂记
 
+## @CheckResult注解
+该注解意味着需要对方法的返回值进行处理，需要进行后续操作。
+例如：
+
+	 public @CheckResult
+	    static String trim(String s) {
+	        return s.trim();
+	    }
+
+当调用该方法的时候，单单只是调用`s.trim();`可能就没有达到想要的结果(没有去除空格)。
+最理想的调用方式应该是`s = s.trim();`使用函数的返回值才能达到效果，而`@CheckResult`注解就是解决这样的问题。
+
+
 ## 改变Menu字体颜色
 `Menu`依附在`Toolbar`上，所以给`Toolbar`设置对应的主题即可
 
