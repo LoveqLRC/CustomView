@@ -39,7 +39,7 @@
 
 
 
-## CheckedTextView
+## CheckedTextView改变样式
 `CheckedTextView`不提供直接设置选中和不选中的样式，当然也可以选择自定义drawable实现，但是这样做原生的动画效果将会丢失。
 可以通过设置 `android:theme`解决选中和不选中的样式问题。
 
