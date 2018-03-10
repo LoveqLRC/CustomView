@@ -174,6 +174,17 @@ public class ElasticDragDismissFrameLayout extends FrameLayout {
             setScaleX(scale);
             setScaleY(scale);
         }
+        if ((draggingDown && totalDrag >= 0)
+                || (draggingUp && totalDrag <= 0)) {
+            totalDrag = dragTo = dragFraction = 0;
+            draggingDown = draggingUp = false;
+            setTranslationY(0f);
+            setScaleX(1f);
+            setScaleY(1f);
+        }
+        dispatchDragCallback(dragFraction, dragTo,
+                Math.min(1f, Math.abs(totalDrag) / dragDismissDistance), totalDrag);
+
 
     }
 
