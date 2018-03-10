@@ -8,17 +8,17 @@
 
 ![](https://raw.githubusercontent.com/LoveqLRC/CustomView/master/blog/image/view%E5%9D%90%E6%A0%87.png)
 
-从Android3.0开始，View增加了额外的几个参数：x,y,translationX和translationY,其中x和y是View左上角坐标，而translationX和translationY是View左上角相对于父容器的偏移量。这几个参数也是相对于父容器的坐标，并且translationX和translationY的默认值是0。
-
-	x=left+translationX
-	y=top+translationY
-
 可以得出view的宽高
 
 	width=right-left
 	height=bottom-top
 
-也就是说setTop会改变View的高，而setTranslationY改变View Y的滚动
+也就是说setTop或setLeft会改变View的宽高
+
+从Android3.0开始，View增加了额外的几个参数：x,y,translationX和translationY,其中x和y是View左上角坐标，而translationX和translationY是View左上角相对于父容器的偏移量。这几个参数也是相对于父容器的坐标，并且translationX和translationY的默认值是0。
+
+	x=left+translationX
+	y=top+translationY
 
 
 **需要注意的是，View在平移的过程中，top和left表示是原始左上角的位置信息，其值并不会发生改变，此时发生改变的是x,y,tanslationX,**

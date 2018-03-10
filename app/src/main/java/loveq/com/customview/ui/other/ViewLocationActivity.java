@@ -1,5 +1,6 @@
 package loveq.com.customview.ui.other;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -19,7 +20,7 @@ public class ViewLocationActivity extends AppCompatActivity {
         mTvContent = findViewById(R.id.tv_content);
         mViewLocation = findViewById(R.id.v_location);
     }
-
+    @SuppressLint("SetTextI18n")
     public void translationY(View view) {
         float translationY = mViewLocation.getTranslationY();
         translationY += 10;
@@ -40,6 +41,7 @@ public class ViewLocationActivity extends AppCompatActivity {
         }
     }
 
+    @SuppressLint("SetTextI18n")
     public void top(View view) {
         int top = mViewLocation.getTop();
         top += 10;
