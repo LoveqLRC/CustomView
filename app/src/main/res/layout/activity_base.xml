@@ -52,5 +52,11 @@
         android:onClick="other"
         android:text="其他"/>
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="location"
+        android:text="view位置"/>
+
 
 </LinearLayout>

@@ -1,4 +1,4 @@
-package loveq.com.customview.ui.base;
+package loveq.com.customview.ui.other;
 
 import android.graphics.Color;
 import android.os.Bundle;

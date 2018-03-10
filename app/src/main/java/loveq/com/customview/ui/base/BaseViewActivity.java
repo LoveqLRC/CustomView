@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import loveq.com.customview.R;
+import loveq.com.customview.ui.other.OtherActivity;
+import loveq.com.customview.ui.other.ViewLocationActivity;
 
 public class BaseViewActivity extends AppCompatActivity {
 
@@ -46,6 +48,11 @@ public class BaseViewActivity extends AppCompatActivity {
     }
     public void SemiCircle(View view) {
         Intent intent = new Intent(this, SemiCircleActivity.class);
+        startActivity(intent);
+    }
+
+    public void location(View view) {
+        Intent intent = new Intent(this, ViewLocationActivity.class);
         startActivity(intent);
     }
 }
